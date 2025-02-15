@@ -16,19 +16,39 @@ To allow users to connect remotely to specific machines in the domain, Remote De
 
 ---
 
-## Configuring a Static IP for Splunk
-Splunk requires a static IP to ensure log forwarding and monitoring stability. This setup assigns a fixed IP address to the Splunk server.
+### **Configuring a Static IP for Splunk**
+The Splunk Server runs on **Linux**, and a static IP is required for log forwarding and stability.
 
-### Steps:
-1. Open **Control Panel > Network and Internet > Network and Sharing Center**.
-2. Click **Change adapter settings**.
-3. Right-click the active network adapter and select **Properties**.
-4. Select **Internet Protocol Version 4 (TCP/IPv4)** and click **Properties**.
-5. Choose **Use the following IP address** and enter:
-   - **IP Address**: `192.168.10.50`
-   - **Subnet Mask**: `255.255.255.0`
-   - **Default Gateway**: `192.168.10.1`
-6. Click **OK** and restart the network adapter.
+### **Steps:**
+1. Open a terminal on the **Splunk Server**.
+2. Edit the network configuration file:
+   - For **Ubuntu/Debian**, run:
+     ```sh
+     sudo nano /etc/netplan/01-netcfg.yaml
+     ```
+   - For **CentOS/RHEL**, run:
+     ```sh
+     sudo nano /etc/sysconfig/network-scripts/ifcfg-ens192
+     ```
+3. Set the following static IP configuration:
+   - **IP Address:** `192.168.10.10`
+   - **Subnet Mask:** `255.255.255.0`
+   - **Gateway:** `192.168.10.1`
+   - **DNS Server:** `8.8.8.8`
+4. Save the file (`CTRL + X`, then `Y`, then `ENTER`).
+5. Apply the changes:
+   - For **Ubuntu/Debian**, run:
+     ```sh
+     sudo netplan apply
+     ```
+   - For **CentOS/RHEL**, restart the network:
+     ```sh
+     sudo systemctl restart NetworkManager
+     ```
+6. Verify the new settings using:
+   ```sh
+   ip a
+
 
 **Screenshot:**
 ![Splunk Static IP Config](Splunk_Static_IP_Config.jpg)
