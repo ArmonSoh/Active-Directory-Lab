@@ -1,0 +1,172 @@
+2025-02-12 19:01:24 START
+2025-02-12 19:01:24 Crowbar v0.4.2
+2025-02-12 19:01:24 Trying 192.168.10.100:3389
+2025-02-12 19:01:27 STOP
+2025-02-12 19:01:27 No results found...
+2025-02-12 19:05:06 START
+2025-02-12 19:05:06 Crowbar v0.4.2
+2025-02-12 19:05:06 Trying 192.168.10.100:3389
+2025-02-12 19:05:09 STOP
+2025-02-12 19:05:09 No results found...
+2025-02-12 19:25:33 START
+2025-02-12 19:25:33 Crowbar v0.4.2
+2025-02-12 19:25:33 Trying 192.168.10.7:3389
+2025-02-12 19:26:50 STOP
+2025-02-12 19:26:50 No results found...
+2025-02-12 19:27:32 START
+2025-02-12 19:27:32 Crowbar v0.4.2
+2025-02-12 19:27:32 Trying 192.168.10.100:3389
+2025-02-12 19:27:35 STOP
+2025-02-12 19:27:35 No results found...
+2025-02-12 19:30:57 START
+2025-02-12 19:30:57 Crowbar v0.4.2
+2025-02-12 19:30:57 Trying 192.168.10.100:3389
+2025-02-12 19:31:00 STOP
+2025-02-12 19:31:00 No results found...
+2025-02-12 19:37:00 START
+2025-02-12 19:37:00 Crowbar v0.4.2
+2025-02-12 19:37:00 Trying 192.168.10.100:3389
+2025-02-12 19:37:03 STOP
+2025-02-12 19:37:03 No results found...
+2025-02-12 19:39:03 START
+2025-02-12 19:39:03 Crowbar v0.4.2
+2025-02-12 19:39:03 Brute Force Type: rdp
+2025-02-12 19:39:03      Output File: /home/kali/Desktop/ad-project/crowbar.out
+2025-02-12 19:39:03         Log File: /home/kali/Desktop/ad-project/crowbar.log
+2025-02-12 19:39:03    Discover Mode: False
+2025-02-12 19:39:03     Verbose Mode: 1
+2025-02-12 19:39:03       Debug Mode: True
+2025-02-12 19:39:03 Trying 192.168.10.100:3389
+2025-02-12 19:39:03 [19:39:03:581] [99172:99177] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:03 [19:39:03:581] [99172:99177] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:03 [19:39:03:581] [99172:99177] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:03 [19:39:03:581] [99172:99177] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:03 [19:39:03:581] [99172:99177] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:03 [19:39:03:000] [99172:99177] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:03 [19:39:03:637] [99173:99184] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:03 [19:39:03:638] [99173:99184] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:03 [19:39:03:638] [99173:99184] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:03 [19:39:03:638] [99173:99184] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:03 [19:39:03:638] [99173:99184] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:03 [19:39:03:071] [99173:99184] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:03 [19:39:03:647] [99174:99192] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:03 [19:39:03:647] [99174:99192] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:03 [19:39:03:647] [99174:99192] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:03 [19:39:03:647] [99174:99192] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:03 [19:39:03:647] [99174:99192] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:03 [19:39:03:084] [99174:99192] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:03 [19:39:03:667] [99175:99186] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:03 [19:39:03:667] [99175:99186] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:03 [19:39:03:667] [99175:99186] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:03 [19:39:03:667] [99175:99186] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:03 [19:39:03:667] [99175:99186] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:03 [19:39:03:667] [99176:99190] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:03 [19:39:03:668] [99176:99190] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:03 [19:39:03:668] [99176:99190] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:03 [19:39:03:668] [99176:99190] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:03 [19:39:03:668] [99176:99190] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:03 [19:39:03:081] [99175:99186] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:03 [19:39:03:083] [99176:99190] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:165] [99235:99236] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:04:165] [99235:99236] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:165] [99235:99236] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:165] [99235:99236] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:165] [99235:99236] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:03:616] [99235:99236] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:296] [99240:99243] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:04:296] [99240:99243] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:296] [99240:99243] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:296] [99240:99243] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:296] [99240:99243] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:04:300] [99238:99242] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:03:737] [99240:99243] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:300] [99238:99242] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:300] [99238:99242] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:300] [99238:99242] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:300] [99238:99242] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:03:731] [99238:99242] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:308] [99239:99244] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:04:308] [99239:99244] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:308] [99239:99244] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:308] [99239:99244] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:308] [99239:99244] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:03:738] [99239:99244] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:336] [99241:99248] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:04:336] [99241:99248] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:336] [99241:99248] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:336] [99241:99248] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:336] [99241:99248] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:04:768] [99241:99248] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:04 [19:39:04:737] [99298:99299] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:04 [19:39:04:737] [99298:99299] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:04 [19:39:04:737] [99298:99299] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:04 [19:39:04:737] [99298:99299] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:04 [19:39:04:737] [99298:99299] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:04 [19:39:04:202] [99298:99299] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:850] [99302:99306] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:850] [99302:99306] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:850] [99302:99306] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:851] [99302:99306] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:851] [99302:99306] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:04:385] [99302:99306] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:959] [99301:99305] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:959] [99301:99305] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:959] [99301:99305] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:959] [99301:99305] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:959] [99301:99305] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:04:385] [99301:99305] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:003] [99303:99309] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:003] [99303:99309] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:003] [99303:99309] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:003] [99303:99309] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:003] [99303:99309] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:04:429] [99303:99309] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:012] [99304:99311] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:012] [99304:99311] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:012] [99304:99311] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:012] [99304:99311] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:012] [99304:99311] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:04:452] [99304:99311] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:332] [99332:99346] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:332] [99332:99346] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:332] [99332:99346] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:332] [99332:99346] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:332] [99332:99346] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:05:794] [99332:99346] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:454] [99356:99357] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:454] [99356:99357] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:454] [99356:99357] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:454] [99356:99357] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:454] [99356:99357] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:05:889] [99356:99357] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:598] [99359:99362] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:598] [99359:99362] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:599] [99359:99362] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:599] [99359:99362] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:599] [99359:99362] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:05:045] [99359:99362] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:644] [99361:99382] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:644] [99361:99382] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:644] [99361:99382] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:644] [99361:99382] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:644] [99361:99382] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:05:112] [99361:99382] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:05 [19:39:05:648] [99360:99372] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:05 [19:39:05:649] [99360:99372] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:05 [19:39:05:649] [99360:99372] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:05 [19:39:05:649] [99360:99372] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:05 [19:39:05:649] [99360:99372] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:05 [19:39:05:096] [99360:99372] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:06 [19:39:06:954] [99392:99401] [WARN][com.freerdp.core.nla] - SPNEGO received NTSTATUS: STATUS_LOGON_FAILURE [0xC000006D] from server
+2025-02-12 19:39:06 [19:39:06:954] [99392:99401] [ERROR][com.freerdp.core] - nla_recv_pdu:freerdp_set_last_error_ex ERRCONNECT_LOGON_FAILURE [0x00020014]
+2025-02-12 19:39:06 [19:39:06:954] [99392:99401] [ERROR][com.freerdp.core.rdp] - rdp_recv_callback: CONNECTION_STATE_NLA - nla_recv_pdu() fail
+2025-02-12 19:39:06 [19:39:06:954] [99392:99401] [ERROR][com.freerdp.core.transport] - transport_check_fds: transport->ReceiveCallback() - -1
+2025-02-12 19:39:06 [19:39:06:954] [99392:99401] [ERROR][com.freerdp.core] - Authentication only, exit status 1
+2025-02-12 19:39:06 [19:39:05:411] [99392:99401] [INFO][com.freerdp.client.x11] - Authentication only. Don't connect to X.
+2025-02-12 19:39:06 STOP
+2025-02-12 19:39:06 No results found...
+2025-02-12 19:42:30 START
+2025-02-12 19:42:30 Crowbar v0.4.2
+2025-02-12 19:42:30 Trying 192.168.10.100:3389
+2025-02-12 19:42:35 [92mRDP-SUCCESS : [0m[94m192.168.10.100:3389 - jsmith:Shayan408[0m
+2025-02-12 19:42:35 STOP
