@@ -48,7 +48,7 @@ The Windows 10 machine in the environment needs proper DNS settings to allow dom
 5. Apply the settings and restart the network connection.
 
 **Screenshot:**
-![Windows 10 Network Config](Windows10_Network_Config.jpg)
+![Windows 10 Network Config](ip_setup_windows10_target.jpg)
 
 ---
 
