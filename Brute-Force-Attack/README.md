@@ -28,24 +28,24 @@ The following screenshots document the attack execution and results:
 
 ## Summary of Findings
 
-### ** Initial Detection**
+###  Initial Detection
 - Multiple failed login attempts detected in **Windows Security Logs** and **Splunk**.
 - Security Event ID **4625** triggered for each failed attempt.
 
-### ** Attack Progression**
+###  Attack Progression
 - The brute-force attack continued until **valid credentials were found**.
 - The attack was conducted using the **Crowbar tool**, targeting **RDP authentication**.
 
-### ** Successful Compromise**
+###  Successful Compromise
 - A successful login was recorded with **Event ID 4624**.
 - The compromised account was `jsmith@shy.local`, successfully authenticated from **192.168.10.250**.
 
-### ** Security Implications**
+###  Security Implications
 1️ **Brute-force attacks generate a lot of noise**, making them easy to detect with proper monitoring.
 2️ **Weak or guessable passwords** increase the risk of compromise.
 3️ **No account lockout policies enabled**, allowing the attack to continue indefinitely.
 
-### ** Mitigation & Prevention**
+###  Mitigation & Prevention
  **Enable Account Lockout Policies** – Prevent unlimited login attempts.  
  **Deploy Multi-Factor Authentication (MFA)** – Prevent unauthorized logins even if credentials are stolen.  
  **Use SIEM (e.g., Splunk) for Continuous Monitoring** – Detect brute-force patterns early.  
