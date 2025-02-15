@@ -15,16 +15,16 @@ This folder contains logs, screenshots, and files related to a brute-force attac
 The following screenshots document the attack execution and results:
 
 ### **Failed Login Attempts Logged in Splunk**
-![Brute Force Failed](./Brute-Force-Attack/Brute_Force_Failed_Event4625.jpg)
+![Brute Force Failed](Brute-Force-Attack/Brute_Force_Failed_Event4625.jpg)
 
 ### **Detailed Log of Failed Login in Splunk**
-![Detailed 4625 Log](./Brute-Force-Attack/Brute_Force_Failed_Login_Detailed_Splunk.jpg)
+![Detailed 4625 Log](Brute-Force-Attack/Brute_Force_Failed_Login_Detailed_Splunk.jpg)
 
 ### **Successful Brute Force Attack Using Crowbar**
-![Successful Attack](./Brute-Force-Attack/Brute_Force_Success.jpg)
+![Successful Attack](Brute-Force-Attack/Brute_Force_Success.jpg)
 
 ### **Windows Event Log Showing Successful Login (Event 4624)**
-![Event 4624](./Brute-Force-Attack/Brute_Force_Successful_Login_Event4624.jpg)
+![Event 4624](Brute-Force-Attack/Brute_Force_Successful_Login_Event4624.jpg)
 
 ## Summary of Findings
 
