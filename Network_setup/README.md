@@ -35,17 +35,21 @@ Splunk requires a static IP to ensure log forwarding and monitoring stability. T
 
 ---
 
-## Windows 10 Network Configuration
+### **Windows 10 Network Configuration**
 The Windows 10 machine in the environment needs proper DNS settings to allow domain communication.
 
-### Steps:
+### **Steps:**
 1. Open **Network and Sharing Center**.
 2. Click on **Ethernet** (or Wi-Fi if applicable).
 3. Select **Properties** and open **Internet Protocol Version 4 (TCP/IPv4)**.
-4. Configure the DNS settings:
-   - **Preferred DNS Server**: `192.168.10.10` (Domain Controller)
-   - **Alternate DNS Server**: `8.8.8.8` (Google Public DNS)
-5. Apply the settings and restart the network connection.
+4. Configure the following IP settings:
+   - **IP Address:** `192.168.10.100`
+   - **Subnet Mask:** `255.255.255.0`
+   - **Default Gateway:** `192.168.10.1`
+5. Configure the DNS settings:
+   - **Preferred DNS Server:** `8.8.8.8` (Google Public DNS)
+   - **Alternate DNS Server:** *(Leave blank, as seen in the screenshot)*
+6. Click **OK** and **Apply** the settings, then restart the network connection.
 
 **Screenshot:**
 ![Windows 10 Network Config](ip_setup_windows10_target.jpg)
