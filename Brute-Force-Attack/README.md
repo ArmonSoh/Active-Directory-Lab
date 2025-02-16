@@ -41,9 +41,9 @@ The following screenshots document the attack execution and results:
 - The compromised account was `jsmith@shy.local`, successfully authenticated from **192.168.10.250**.
 
 ###  Security Implications
-1️ **Brute-force attacks generate a lot of noise**, making them easy to detect with proper monitoring.
-2️ **Weak or guessable passwords** increase the risk of compromise.
-3️ **No account lockout policies enabled**, allowing the attack to continue indefinitely.
+ **Brute-force attacks generate a lot of noise**, making them easy to detect with proper monitoring.
+ **Weak or guessable passwords** increase the risk of compromise.
+ **No account lockout policies enabled**, allowing the attack to continue indefinitely.
 
 ###  Mitigation & Prevention
  **Enable Account Lockout Policies** – Prevent unlimited login attempts.  
