@@ -2,6 +2,19 @@
 
 This section documents the network configuration required for the Active Directory Lab environment. The configurations ensure proper communication between virtual machines, enable Remote Desktop access, and set up static IP addresses for key services.
 
+
+## Setting Up Network Configuration for VMs
+To ensure all virtual machines are on the same network, configure **VirtualBox** network settings.
+
+1. Open **VirtualBox**.
+2. Click on **Tools** → **Network** → **Nat Network**.
+3. Create a new NAT Network with the following settings:
+   - Network Name: `AD-Project`
+   - IPv4 Prefix: `192.168.10.0/24`
+   - Enable **DHCP Server**
+4. Apply settings and assign this network to all virtual machines.
+
+
 ## Enabling Remote Desktop for Users
 To allow users to connect remotely to specific machines in the domain, Remote Desktop must be enabled and configured with appropriate permissions.
 
@@ -52,10 +65,22 @@ The Splunk Server runs on **Linux**, and a static IP is required for log forward
 
 
 ![Splunk Static IP Config](Splunk_Static_IP_Config.jpg)
+![Splunk Static IP Config](Splunk_IP-a.jpg)
 
 ---
+### **Windows Server**
+1. Open **Network & Internet Settings** → **Change Adapter Options**.
+2. Right-click **Ethernet** → **Properties**.
+3. Select **Internet Protocol Version 4 (TCP/IPv4)** → **Properties**.
+4. Configure the following:
+   - **IP Address:** `192.168.10.7`
+   - **Subnet Mask:** `255.255.255.0`
+   - **Default Gateway:** `192.168.10.1`
+   - **DNS Server:** `8.8.8.8`
+5. Save and restart.
 
-### **Windows 10 Network Configuration**
+---
+### **Windows 10 Host**
 The Windows 10 machine in the environment needs proper DNS settings to allow domain communication.
 
 ### **Steps:**
@@ -74,7 +99,20 @@ The Windows 10 machine in the environment needs proper DNS settings to allow dom
 ![Windows 10 Network Config](ip_setup_windows10_target.jpg)
 
 ---
+### **Kali Linux**
+1. Open **Network Settings** in Kali.
+2. Change **IPv4 Settings** to **Manual**.
+3. Set:
+   - **IP Address:** `192.168.10.250`
+   - **Subnet Mask:** `255.255.255.0`
+   - **Gateway:** `192.168.10.1`
+   - **DNS Server:** `8.8.8.8`
+4. Disconnect and reconnect the network adapter to apply changes.
 
+
+![Windows 10 Network Config](Kali_Network_Config.jpg)
+
+---
 ### Summary
 - Remote Desktop is enabled to allow administrative access.
 - A static IP is assigned to the Splunk server for consistent log forwarding.
