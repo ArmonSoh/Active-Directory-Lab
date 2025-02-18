@@ -1,6 +1,6 @@
 # Network Setup
 
-This section documents the network configuration required for the Active Directory Lab environment. The configurations ensure proper communication between virtual machines, enable Remote Desktop access, and set up static IP addresses for key services.
+This section documents the network configuration required for the Active Directory Lab environment. The configurations ensure proper communication between virtual machines.
 
 
 ## Setting Up Network Configuration for VMs
