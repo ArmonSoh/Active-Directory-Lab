@@ -14,20 +14,9 @@ To ensure all virtual machines are on the same network, configure **VirtualBox**
    - Enable **DHCP Server**
 4. Apply settings and assign this network to all virtual machines.
 
-
-## Enabling Remote Desktop for Users
-To allow users to connect remotely to specific machines in the domain, Remote Desktop must be enabled and configured with appropriate permissions.
-
-### Steps:
-1. Open **System Properties**.
-2. Navigate to the **Remote** tab.
-3. Enable **Allow remote connections to this computer**.
-4. Configure **Remote Desktop Users** to specify which accounts can connect.
-
-
-![Enable Remote Desktop](Enable_Remote_Desktop_Users.jpg)
-
 ---
+
+
 
 ### **Configuring a Static IP for Splunk**
 The Splunk Server runs on **Linux**, and a static IP is required for log forwarding and stability.
@@ -114,7 +103,7 @@ The Windows 10 machine in the environment needs proper DNS settings to allow dom
 
 ---
 ### Summary
-- Remote Desktop is enabled to allow administrative access.
+- Each machine must be assigned a **static IP** for communication.
 - A static IP is assigned to the Splunk server for consistent log forwarding.
 - The Windows 10 workstation is configured with proper DNS settings for domain resolution.
 
